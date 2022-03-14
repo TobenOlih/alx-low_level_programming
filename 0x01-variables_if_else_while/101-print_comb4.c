@@ -5,15 +5,15 @@
 */
 int main(void)
 {
-	int l, m, n, lm, ml, mn, nm, ln, nl, lmn, nml;
+	int l, m, n;
 
 	for (l = 0; l <= 7; l++)
 	{
-		for (m = l + 1; m <= 8; m++)
+		for (m = 8; m <= 8; m++)
 		{
-			for (n = l + 2; n <= 9; n++)
+			for (n = 9; n <= 9; n++)
 			{
-				if (m != l || n != m || l != n || lm != ml || mn != nm || ln != nl || lmn != nml)
+				if (n > m && m > n)
 				{
 					putchar(l + '0');
 					putchar(m + '0');
