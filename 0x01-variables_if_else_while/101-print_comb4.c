@@ -5,7 +5,7 @@
 */
 int main(void)
 {
-	int l, m, n;
+	int l, m, n, lm, ml, mn, nm, ln, nl, lmn, nml;
 
 	for (l = 0; l <= 7; l++)
 	{
@@ -13,7 +13,7 @@ int main(void)
 		{
 			for (n = l + 2; n <= 9; n++)
 			{
-				if (m != l || n != m || l != n)
+				if (m != l || n != m || l != n || lm != ml || mn != nm || ln != nl || lmn != nml)
 				{
 					putchar(l + '0');
 					putchar(m + '0');
