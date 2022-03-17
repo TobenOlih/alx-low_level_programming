@@ -12,13 +12,11 @@ int main(void)
 
 	i = 0;
 
-	/*
-	*while (i > 0)
-	*{
-	*Infinite loop - No increase of variable
-	*putchar(i);
+	while (i > 0)
+	{
+		putchar(i);
+		i++;
 	}
-	*/
 	printf("Infinite loop avoided! \\o/\n");
 	return (0);
 }
