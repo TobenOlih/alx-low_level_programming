@@ -2,22 +2,17 @@
 
 /**
  * _isdigit - checks for a digit
- * @c: An input integer
- * Return: 1 if c is a digit otherwise 0
+ * @c: input number
+ * Return: 1 if a number (0 to 9), 0 is otherwise
 */
 int _isdigit(int c)
 {
-	char i = '0';
-	int isdigit = 0;
-
-	for (; i <= 9; i++)
+	if (c >= 48 && c <= 57)
 	{
-		if (i == c)
-		{
-			isdigit = 1;
-			break;
-		}
+		return (1);
 	}
-
-	return (isdigit);
+	else
+	{
+		return (0);
+	}
 }
