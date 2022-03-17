@@ -9,7 +9,7 @@ int main(void)
 	int i;
 
 	printf("infinite loop coming\n");
-	i = 0
+	i = 0;
 
 	/*
 	 * while (i > 0)
