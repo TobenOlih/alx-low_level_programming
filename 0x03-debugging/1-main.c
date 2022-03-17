@@ -9,15 +9,16 @@ int main(void)
 	int i;
 
 	printf("infinite loop coming\n");
+
 	i = 0;
 
 	/*
-	 * while (i > 0)
-	{
-		putchar(i);
+	*while (i > 0)
+	*{
+	*Infinite loop - No increase of variable
+	*putchar(i);
 	}
 	*/
 	printf("Infinite loop avoided! \\o/\n");
-
 	return (0);
 }
