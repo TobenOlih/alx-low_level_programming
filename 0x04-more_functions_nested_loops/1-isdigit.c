@@ -1,9 +1,9 @@
-#include<stdio.h>
 #include "main.h"
+
 /**
  * _isdigit - checks for a digit
- * @c: parameter to check
- * Return: 1 if a digit otherwise 0
+ * @c: An input integer
+ * Return: 1 if c is a digit otherwise 0
 */
 int _isdigit(int c)
 {
@@ -18,5 +18,6 @@ int _isdigit(int c)
 			break;
 		}
 	}
+
 	return (isdigit);
 }
