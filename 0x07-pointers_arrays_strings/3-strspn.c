@@ -22,14 +22,13 @@ unsigned int _strspn(char *s, char *accept)
 				while (s[i] == accept[j])
 				{
 					k++;
-                    flag = 1;
+					flag = 1;
 				}
-            }
-            if flag == 0
-            {
-                return (k);
-            }
-
+			}
+			if flag == 0
+			{
+				return (k);
+			}
 		}
 	}
 }
