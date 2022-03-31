@@ -3,16 +3,16 @@
 /**
  * puts_recursion - prints a string, followed by a new line,
  * using recursion
- * @str: string to print
+ * @s: string to print
  * Return: void
 */
-void puts_recursion(char *str)
+void puts_recursion(char *s)
 {
-	if (*str == '\0')
+	if (*s == '\0')
 		putchar('\n');
 	else
 	{
-		putchar(*str);
-		puts_recursion(str + 1);
+		putchar(*s);
+		puts_recursion(s + 1);
 	}
 }
